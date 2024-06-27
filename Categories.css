@@ -1,0 +1,26 @@
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9; /* Слегка серый фон для улучшенного контраста */
+  border-radius: 15px; /* Скругленные углы */
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3); /* Легкая тень для создания глубины */
+}
+
+.categories-container h2 {
+  font-size: 1.8em; /* Немного увеличил размер шрифта для лучшей читаемости */
+  color: #333;
+  margin: 10px 0;
+  font-family: "Arial", sans-serif; /* Указание более современного шрифта */
+  cursor: pointer; /* Курсор становится pointer, чтобы указать, что элемент кликается */
+  transition: color 0.3s ease, transform 0.3s ease; /* Плавный переход для изменений */
+}
+
+.categories-container h2:hover {
+  color: #9400d3; /* Изменение цвета текста при наведении */
+  transform: scale(1.25); /* Легкое увеличение текскта при наведении */
+}

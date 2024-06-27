@@ -1,0 +1,32 @@
+.container_about {
+  margin: 50px 20px 50px 20px;
+  background-image: url(https://www.khanshatyr.com/assets/img/bgslide2.jpg);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  height: 600px;
+  display: flex;
+  gap: 50px;
+}
+
+.about_us,
+.about_descrVideo {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 350px;
+  width: 600px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
